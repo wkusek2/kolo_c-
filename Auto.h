@@ -11,7 +11,7 @@ public:
     string size;
     string type;
     double price;
-    string condition;
+    string condition; // tu mozna zrobicv tak
     string purchaseDate;
     string saleDate;
     string description;

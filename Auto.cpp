@@ -1,13 +1,16 @@
 #include "Auto.h"
 
-// Konstruktor
-AUTO::AUTO(string b, string c, string s, string t, double p, string cond, string pd, string sd, string desc) {
+// Tutaj robie to i to 
+AUTO::AUTO(string b, string c,
+        string s, string t,double p, string cond,
+        string pd, string sd,
+        string desc) {
     brand = b;
-    color = c;
+        color = c;
     size = s;
     type = t;
     price = p;
-    condition = cond;
+        condition = cond;
     purchaseDate = pd;
     saleDate = sd;
     description = desc;
@@ -17,3 +20,5 @@ AUTO::AUTO(string b, string c, string s, string t, double p, string cond, string
 string AUTO::getBrand() {
     return brand;
 }
+
+string test()

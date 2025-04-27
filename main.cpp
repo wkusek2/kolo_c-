@@ -1,12 +1,7 @@
 #include <iostream>
-#include "Auto.h"
-
-using namespace std;
 
 int main() {
-    AUTO AUTO1("Toyota", "Red", "Medium", "SUV", 30000, "New", "2025-04-25", "2025-05-01", "Great car!");
-
-    cout << "Brand: " << AUTO1.getBrand() << endl;
-
+    std::cout << "Hello, World!" << std::endl;
+    std::cin.ignore(); // Wait for user input before closing the console window
     return 0;
 }
